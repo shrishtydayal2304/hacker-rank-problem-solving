@@ -6,13 +6,9 @@ public class Sum{
     {
         int Size, i, Sum = 0;
         sc = new Scanner(System.in);
-     
-//System.out.print(" Please Enter Number of elements in an array : ");
         Size = sc.nextInt();    
-        
+        //creating the array 
         int [] a = new int[Size];
-        
-       // System.out.print( + Size  );
         for (i = 0; i < Size; i++)
         {
             a[i] = sc.nextInt();
