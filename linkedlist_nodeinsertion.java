@@ -55,8 +55,8 @@ public class Solution {
      */
     static SinglyLinkedListNode insertNodeAtHead(SinglyLinkedListNode llist, int data) {
 
-/* i have created a new node object "toAdd" and then insertion of data .
-/*the toAdd is added at the starting of the list ,now next will be need to link it with the list nodes and the list is returned.
+/* i have created a new node object "toAdd" and then insertion of data . */
+/*the toAdd is added at the starting of the list ,now next will be need to link it with the list nodes and the list is returned. */
         SinglyLinkedListNode toAdd = new SinglyLinkedListNode(data);
         toAdd.next=llist;
         llist = toAdd;
