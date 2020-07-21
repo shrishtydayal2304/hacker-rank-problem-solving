@@ -70,12 +70,12 @@ public class Solution {
         SinglyLinkedListNode datanode = new SinglyLinkedListNode (data);
         SinglyLinkedListNode current =head;
         int index=0;
-        // travere till the  position one less then the actual whic  is curent.next
+        // travere till the  position one less then the actual is curent.next
         while(index<position-1){
             current = current.next;
             index++;
         } 
-        // now move next to reach the excat position   and add the elementat the position
+        // now move next to reach the exact position   and add the elementat the position
         datanode.next=current.next;
         current.next=datanode;
         return head;
